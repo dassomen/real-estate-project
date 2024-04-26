@@ -3,17 +3,20 @@ export default {
   content: ["./*.{html,js}"],
   theme: {
     extend: {
-      fontsize:{
+      fontSize:{
         sm:"0.75rem",
         base:"0.875rem",
         md:"1rem",
-        ms:"1.125rem",
-        mt:"1.25rem",
-        mu:"1.375rem",
-        mv:"1.5rem",
-        mx:"1.625rem",
-        mw:"1.75rem",
-        my:"2.25rem",
+        lg:"1.25rem",
+        xl:"1.5rem",
+        "2xl":"1.75rem",
+        "3xl":"2.25rem"
+      },
+
+      backgroundImage: {
+        'team-bg-image': "url('/public/teams/team.png')",
+        'team-avatar': "url('/public/teams/team_avatar.png')",
+        
       }
     },
   },
