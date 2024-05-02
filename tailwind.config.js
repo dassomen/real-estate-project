@@ -11,7 +11,8 @@ export default {
         xl:"1.5rem",
         "2xl":"1.75rem",
         "3xl":"2.25rem",
-        "4xl":"2.875rem"
+        "4xl":"2.875rem",
+        "5xl":"4rem"
       },
 
       backgroundImage: {
